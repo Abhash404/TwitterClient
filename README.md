@@ -1,45 +1,52 @@
-# Project 2 - *SimpleTweet*
+# Project 2 - TwitterClient
 
-**SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+TwitterClient is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **4** hours spent in total
+Time spent: 8 hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+The following functionality is completed:
 
-- [X] User can **sign in to Twitter** using OAuth login
-- [X]	User can **view tweets from their home timeline**
-  - [X] User is displayed the username, name, and body for each tweet
-  - [X] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [X] User can refresh tweets timeline by pulling down to refresh
+- [x] User can **sign in to Twitter** using OAuth login
+- [x]	User can **view tweets from their home timeline**
+  - [x] User is displayed the username, name, and body for each tweet
+  - [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+- [x] User can refresh tweets timeline by pulling down to refresh
 
-The following **optional** features are implemented:
+The following optional features are implemented:
 
-- [ ] User can view more tweets as they scroll with infinite pagination
-- [ ] Improve the user interface and theme the app to feel "twitter branded"
+- [x] User can view more tweets as they scroll with infinite pagination
+- [x] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
 - [ ] User can tap a tweet to display a "detailed" view of that tweet
 - [ ] User can see embedded image media within the tweet detail view
 - [ ] User can watch embedded video within the tweet
 - [ ] User can open the twitter app offline and see last loaded tweets
-- [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
+- [x] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides.
 
-The following **additional** features are implemented:
+The following additional features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-- [X] Profile Images in Home Timeline have rounded corners
+- [x] Splash screed added.
+- [x] Progress bar with duration added.
+- [x] UI enhanced.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
+![walkthrough](https://user-images.githubusercontent.com/80597347/157810246-759935a3-9c0a-4cc3-825d-6d9ccd129a52.gif)
 
-GIF created with [gfycat](http://www.gfycat.com).
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered while building the app:
+
+- Version Control issues.
+- Moshi Kotlin issues.
+- Gradle build errors due to operations errors.
+- java.lang Errors.
 
 ## Open-source libraries used
 
@@ -48,7 +55,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
