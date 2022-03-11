@@ -27,7 +27,7 @@ The following optional features are implemented:
 
 The following additional features are implemented:
 
-- [x] Splash screed added.
+- [x] Splash screen added.
 - [x] Progress bar with duration added.
 - [x] UI enhanced.
 
