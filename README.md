@@ -34,7 +34,6 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://thumbs.gfycat.com/GlitteringGoldenKakarikis-size_restricted.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 GIF created with [gfycat](http://www.gfycat.com).
 
