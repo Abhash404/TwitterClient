@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -22,7 +23,7 @@
         android:layout_margin="10dp"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:textColor="?android:textColorPrimary"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="PlayerOutOfForm" />
@@ -32,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/tvUsername"
         app:layout_constraintStart_toEndOf="@+id/tvUsername"
         app:layout_constraintTop_toTopOf="@+id/tvUsername"
@@ -44,6 +46,7 @@
         android:layout_marginEnd="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/tvScreenName"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="@+id/tvScreenName"
         tools:text="47m" />
 
@@ -52,11 +55,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:textColor="?android:textColorPrimary"
         app:layout_constraintTop_toBottomOf="@id/tvUsername"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constrainedWidth="true"
+        android:textColor="@color/white"
         app:layout_constraintHorizontal_bias="0.0"
         tools:text="C'mon you really sitting down to read this?"
         />
